@@ -1,0 +1,176 @@
+﻿body * {
+    background: #e3d5ae;
+    color: #000;
+}
+
+h1.title {
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+h2.subtitle {
+    text-decoration: underline;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+div.ctnName > span {
+    font-size:20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+section ul.listElement li {
+    padding: 5px 0;
+}
+
+img.logoTech {
+    height: 150px;
+}
+
+section.baseIdea p.heroes {
+    font-size: 40px;
+    margin-top: 150px;
+}
+
+section.baseIdea p > img {
+    height: 200px;
+    margin-top: 50px;
+}
+
+section.finalIdea p.heroes {
+    font-size: 40px;
+    margin-top: 150px;
+}
+/** Technologies **/
+div.ctnTechDetails * {
+    display: inline-block;
+}
+
+div.ctnTechDetails > div.tech {
+    height: 150px;
+    padding: 10px;
+}
+
+div.techNode  h3.titleTech {
+    display: block;
+    color: #fff;
+    font-weight: bold;
+}
+
+div.tech  p {
+    display: block;
+    color: #fff;
+}
+
+h2.subtitle.tech {
+    margin-bottom: 15px;
+}
+/** Node JS **/
+div.ctnTechDetails h3.titleTech.node {
+    background: #74ac63;
+}
+
+div.ctnTechDetails div.tech.node, div.ctnTechDetails div.tech.node p{
+    background: #74ac63;
+    border-radius: 15px 15px 0px 0px;
+}
+
+/** Angular **/
+div.ctnTechDetails h3.titleTech.angular {
+    background: #e03237;
+}
+
+div.ctnTechDetails div.tech.angular, div.ctnTechDetails div.tech.angular p {
+    background: #e03237;
+    border-radius: 15px 15px 0px 0px;
+}
+
+/** Mongo **/
+div.ctnTechDetails h3.titleTech.mongo {
+    background: #494648;
+}
+
+div.ctnTechDetails div.tech.mongo, div.ctnTechDetails div.tech.mongo p {
+    background: #494648;
+    border-radius: 15px 15px 0px 0px;
+}
+
+/** Global **/
+
+div.ctnTechDetails div.tech.global, div.ctnTechDetails div.tech.global p, div.ctnTechDetails h3.titleTech.global {
+    background: #007bff;
+    border-radius: 0px 0px 15px 15px;
+}
+
+section.context p.first {
+    background: #3b4208;
+    font-size: 20px;
+    color: #fff;
+    margin: 10px 0;
+    padding: 5px;
+}
+
+section.context p.second {
+    background: #214208;
+    font-size: 20px;
+    color: #fff;
+    margin: 10px 0;
+    padding: 5px;
+}
+
+section.context p.third {
+    background: #084238;
+    font-size: 20px;
+    color: #fff;
+    margin: 10px 0;
+    padding: 5px;
+}
+
+section.gestion.first div.ctn * {
+    background: #3b4208;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+section.gestion.second div.ctn * {
+    background: #214208;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+section.gestion.third div.ctn * {
+    background: #084238;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+section.gestion.after div.ctn * {
+    background: #083742;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+section.noSqlVsSql img {
+    height: 400px;
+    width: 400px;
+}
+
+section.ihmElement.profil div.container.profil img.listPerso {
+    width: 400px;
+}
+
+section.ihmElement.listPerso div.container img.listPerso {
+    width: 400px;
+}
